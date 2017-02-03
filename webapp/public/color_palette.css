@@ -1,0 +1,90 @@
+
+/* line 60 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+
+/* line 1 : /Users/rafaelchiti/Documents/Development/Code/board/node_modules/stylus/lib/functions/index.styl */
+
+/* line 293 : /Users/rafaelchiti/Documents/Development/Code/board/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/colors.styl */
+
+/* line 3 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.paletteBox {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 8em;
+  background-color: #f00;
+  display: block;
+  margin: 1rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  padding-top: 2rem;
+  float: left;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 17 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.black {
+  color: #fff;
+  background-color: #1f1f21;
+}
+
+/* line 21 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.dark-gray {
+  background-color: #bdbec2;
+}
+
+/* line 24 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.gray {
+  background-color: #d7d7d7;
+}
+
+/* line 27 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.light-gray {
+  background-color: #f7f7f7;
+}
+
+/* line 30 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.red {
+  background-color: #ff3b30;
+}
+
+/* line 33 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.lighter-red {
+  background-color: #ff2d55;
+}
+
+/* line 37 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.blue {
+  background-color: #007aff;
+}
+
+/* line 40 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.blue-violet {
+  background-color: #5856d6;
+}
+
+/* line 43 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.lighter-blue {
+  background-color: #34aadc;
+}
+
+/* line 46 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.sky-blue {
+  background-color: #5ac8fa;
+}
+
+/* line 50 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.green {
+  background-color: #4cd964;
+}
+
+/* line 54 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.orange {
+  background-color: #ff9500;
+}
+
+/* line 58 : /Users/rafaelchiti/Documents/Development/Code/board/webapp/assets/stylesheets/color_palette.styl */
+.yellow {
+  background-color: #fc0;
+}

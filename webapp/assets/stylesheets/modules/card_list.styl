@@ -1,0 +1,35 @@
+.cardList
+  width 282px
+  height 100%
+  float left
+  margin-right 10px
+  user-select(none)
+
+  ._header
+    position relative
+    width 100%
+    margin-bottom 10px
+    background-color #F6F7F8
+    padding 5px 8px
+    border 1px solid
+    border-color #E5E6E9 #DFE0E4 #D0D1D5
+    border-radius(3px)
+
+  ._addCardButton
+    opacity .4
+    background-color #CFCFCF
+    padding 3px
+    margin-top 16px
+    font-size 14px
+    cursor pointer
+    transition opacity .3s
+
+    &:hover
+      opacity 1
+
+  .cardPlaceHolder
+    height 30px
+    border-radius 3px
+    box-shadow 0px 0px 4px 1px rgba(app-gray, .8) inset
+    background-color rgba(app-gray, .5)
+    width 100%

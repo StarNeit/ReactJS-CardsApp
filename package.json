@@ -1,0 +1,65 @@
+{
+  "name": "board",
+  "version": "0.0.1",
+  "description": "Card Board",
+  "dependencies": {
+    "browserify": "~4.1.11",
+    "css-loader": "^0.9.0",
+    "es6-loader": "^0.2.0",
+    "es6ify": "~1.1.0",
+    "express": "~3.5.3",
+    "flux": "^2.0.1",
+    "glob": "~3.2.11",
+    "gulp": "~3.6.2",
+    "gulp-nodemon": "~1.0.4",
+    "hbs": "~2.5.0",
+    "jquery": "~2.1.1",
+    "jquery-ui": "~1.10.5",
+    "jsx-loader": "^0.11.2",
+    "mocha": "~1.18.2",
+    "nib": "~1.0.3",
+    "path": "~0.4.9",
+    "react": "~0.11.2",
+    "reactify": "~0.10.0",
+    "style-loader": "^0.8.1",
+    "stylus": "~0.42.3",
+    "stylus-loader": "^0.4.0",
+    "underscore": "~1.6.0",
+    "webpack": "^1.4.4"
+  },
+  "author": "Rafael Fabricio Chiti",
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rafaelchiti/board.git"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1",
+    "vinyl-source-stream": "~0.1.1",
+    "es6ify": "~1.1.0",
+    "glob": "~3.2.9",
+    "gulp-open": "~0.2.8",
+    "gulp-nodemon": "~1.0.2",
+    "open": "0.0.5",
+    "watchify": "~0.10.2",
+    "gulp-util": "~2.2.18",
+    "coffeeify": "~0.6.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": "true"
+        }
+      ],
+      "es6ify",
+      "coffeeify"
+    ]
+  }
+}
